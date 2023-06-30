@@ -1,0 +1,7 @@
+n=int(input("enter the age:"))
+if(n<18):
+    print("You are a minor")
+elif(n>65):
+    print("You are a senior")
+elif(n>18 & n<65):
+    print("You are an adult")
